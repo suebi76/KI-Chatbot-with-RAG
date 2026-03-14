@@ -1,0 +1,22 @@
+<?php
+/**
+ * KI-Didaktik Chat – API-Konfiguration (Vorlage)
+ *
+ * Dieses Verzeichnis ist per .htaccess gegen HTTP-Zugriff gesperrt.
+ * Die Datei ist nur über das PHP-Dateisystem erreichbar, nicht per Browser.
+ *
+ * SETUP:
+ * 1. Diese Datei kopieren: cp config.php.example config.php
+ * 2. GEMINI_API_KEY durch deinen echten Key aus Google AI Studio ersetzen
+ * 3. config.php wird per .gitignore NICHT ins Repository übernommen
+ *
+ * API-Key erstellen: https://aistudio.google.com/app/apikey
+ *
+ * @author  Steffen Schwabe
+ */
+
+define('GEMINI_API_KEY', 'DEIN_GEMINI_API_KEY_HIER');
+define('MODEL_NAME',     'gemini-2.5-flash');
+
+// Admin-Passwort wird direkt in admin.php beim ersten Aufruf gesetzt.
+// Kein manueller Eintrag hier nötig.

@@ -1,0 +1,16 @@
+# API-Konfiguration mit echtem Key – niemals committen!
+config/config.php
+
+# Admin-Passwort-Hash
+rag/.admin_password
+
+# Hochgeladene PDFs (temporär, kein Versionsverlauf nötig)
+rag/uploads/
+
+# OS-Dateien
+.DS_Store
+Thumbs.db
+
+# Editor-Verzeichnisse
+.vscode/
+.idea/
