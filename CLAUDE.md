@@ -8,7 +8,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **KI-Didaktik Chat v2** — Spezialisierter KI-Assistent für den Fortbildungskurs
 „Digitales Klassenraummanagement in der Sekundarstufe I" von Steffen Schwabe.
-Lizenz: CC BY 4.0. Deployment-Ziel: IONOS Shared Hosting (Apache, PHP, kein Node/Python).
+Lizenz: CC BY 4.0. Deployment-Ziel: Apache Shared Hosting (PHP, kein Node/Python).
 
 ---
 

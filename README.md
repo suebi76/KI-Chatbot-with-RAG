@@ -15,7 +15,7 @@ Eine vollständige, serverlose Chat-Anwendung mit:
 - **Google Gemini API** als KI-Backend (serverseitig über PHP-Proxy, kein API-Key im Browser)
 - **Streaming-Antworten** per Server-Sent Events (SSE)
 - **Admin-Interface** mit PDF-Upload → automatischer Chunk-Erstellung über Gemini
-- **Keine Build-Pipeline** – läuft direkt auf Apache/PHP-Shared-Hosting (z. B. IONOS)
+- **Keine Build-Pipeline** – läuft direkt auf Apache/PHP-Shared-Hosting
 - **DSGVO-konform** – kein CDN, alle Abhängigkeiten lokal in `vendor/`
 
 ---
@@ -64,7 +64,7 @@ define('MODEL_NAME',     'gemini-2.5-flash');
 
 API-Key erstellen: [Google AI Studio](https://aistudio.google.com/app/apikey)
 
-### 3. Deployment (IONOS / Apache Shared Hosting)
+### 3. Deployment (Apache Shared Hosting)
 
 Gesamten Ordner per FTP hochladen. Wichtig: `.htaccess`-Dateien in `config/` und `rag/` müssen vorhanden sein – ohne sie ist der API-Key über HTTP abrufbar.
 
